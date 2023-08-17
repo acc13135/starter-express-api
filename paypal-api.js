@@ -5,7 +5,7 @@ dotenv.config()
 const CLIENT_ID = process.env.CLIENT_ID
 const APP_SECRET = process.env.APP_SECRET
 
-const base = "https://api-m.sandbox.paypal.com";
+const base = "https://api-m.paypal.com";
 
 export async function createOrder(data) {
   const accessToken = await generateAccessToken();
